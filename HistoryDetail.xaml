@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment1.HistoryDetail">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding Name, StringFormat='Item: {0}'}"/>
+            <Label Text="{Binding qty, StringFormat='Qty purchased: {0}'}"/>
+            <Label Text="{Binding price, StringFormat='Total amount: ${0}'}"/>
+            <Label Text="{Binding time, StringFormat='Purchased on: {0}'}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
